@@ -5,3 +5,6 @@ mystring = 'hello'
 ##    mylist.append(letter)
 
 mylist = [letter for letter in mystring]
+
+for letter in mylist:
+    print(letter,end="")

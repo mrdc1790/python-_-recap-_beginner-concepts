@@ -28,7 +28,6 @@ def replay():
     return input("Do you want to play again? Enter Yes or No: ").lower().startswith('y')
 
 print("Welcome to Rock Paper & Scissors!")
-import pdb; pdb.set_trace()
 game_on = True
 Player_Tally = 0
 Computer_Tally = 0
