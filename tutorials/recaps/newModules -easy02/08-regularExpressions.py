@@ -1,6 +1,8 @@
 ## regex (regular expressions) allows us to search 
 ## for general patterns in text data!
 
+## findall, search, split, sub <- all different functions of re
+
 import re
 
 ## '\d' represents arbitrary digits, format MUST be exact to what is wanted
