@@ -10,7 +10,7 @@ password = getpass.getpass("Password: ")
 print(smtp_object.login(email,password))
 
 from_address = email
-to_address = 'lisapollack@comcast.net'
+to_address = email
 subject = input("enter the subject line: ")
 message = input("enter the body message: ")
 msg = "Subject: "+subject+"\n"+message
