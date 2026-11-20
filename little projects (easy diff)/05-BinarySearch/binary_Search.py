@@ -21,7 +21,7 @@ def binary_search(l, target, low=None, high=None):
 
 	midpoint = (low + high) // 2
 	if l[midpoint] == target:
-		return midpoint+1
+		return midpoint
 	elif target < l[midpoint]:	
 		return binary_search(l, target, low, midpoint-1)
 	else:
